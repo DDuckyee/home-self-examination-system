@@ -1,3 +1,6 @@
+pre {
+    display: none;
+}
 .button {
     display: flex;
     justify-content: center;
@@ -9,12 +12,41 @@
 
 .button-controll {
     margin: 0px auto;
-    width: 70%;
+    width: 80%;
+}
+
+.title {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.mobile-title {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: none;
+}
+
+body {
+    background-color: rgb(23, 2, 27);
 }
 
 @media screen and (max-width: 900px) {
     .button {
-        height: 300px;
-        font-size: 5em;
+        height: 130px;
+        font-size: 3em;
+    }
+    .button-controll {
+        width: 85%;
+    }
+    .title {
+        display: none;
+    }
+    .mobile-title {
+        display: block;
+    }
+    pre {
+        display: inline;
+    }
+    .div {
+        display: none;
     }
 }
