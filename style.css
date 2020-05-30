@@ -12,8 +12,7 @@ pre {
 }
 
 .button-controll {
-    margin: 0px auto;
-    width: 80%;
+    width: 99%;
 }
 
 .title {
@@ -22,6 +21,8 @@ pre {
 }
 .mobile-title {
     color: rgb(255, 255, 255);
+    font-size: 2.5em;
+    font-weight: bold;
     text-align: center;
     display: none;
 }
@@ -31,6 +32,9 @@ body {
 }
 
 @media screen and (max-width: 900px) {
+    br {
+        display: none;
+    }
     .button {
         height: 130px;
         font-size: 3em;
@@ -41,13 +45,18 @@ body {
     .title {
         display: none;
     }
-    .mobile-title {
+    .mobile-title { 
         display: block;
+        margin: 0px;
     }
     pre {
-        display: inline;
+        display: block;
+        margin: 0px;
     }
     .div {
         display: none;
+    }
+    .button-controll {
+        margin-left: 4%;
     }
 }
