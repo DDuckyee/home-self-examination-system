@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(23, 2, 27);
+}
+
+.title {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.danger {
+    color: rgb(255, 255, 255);
+    display: block;
+    border: 1px solid;
+    text-align: center;
+}
+.care {
+    color: rgb(255, 255, 255);
+    display: block;
+    border: 1px solid;
+    text-align: center;
+}
+.check {
+    color: rgb(255, 255, 255);
+    display: block;
+    border: 1px solid;
+    text-align: center;
+}
+
+pre {
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+}
