@@ -12,6 +12,12 @@ h1 {
     font-weight: 500;
 }
 
+
+h3 {
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
 .danger {
     color: rgb(255, 255, 255);
     display: block;

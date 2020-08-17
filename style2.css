@@ -11,6 +11,10 @@ body {
     text-align: center;
 }
 
+p {
+    font-size: 1em;
+}
+
 .button {
     font-size: 2em;
 }
